@@ -1,0 +1,18 @@
+print("\nMenu\n(V)iew High Scores\n(P)lay Game\n(S)et Game Limits\n(Q)uit")
+choose=input(">>> ")
+choice=choose.lower()
+while choice!="q":
+    if choice=="v":
+        highScore()
+        main()
+    elif choice=="s":
+        setLimit()
+        main()
+    elif choice=="p":
+        game()
+        main()
+    else:
+        print("Invalid choice, please choose again")
+        print("\n")
+print("Thank you for playing,",name,end="")
+print(".")
