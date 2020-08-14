@@ -1,9 +1,13 @@
-
+  
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
 def addition(num1,num2)
     add = num1+num2
     return add
+print("addition is :", addition(num1,num2)) 
+    
 def divide(num1,num2)
   div = num1/num2
   return div
-print("addition is :", addition(x,y))
-print("division is :", divide(x,y))
+
+print("division is :", divide(num1,num2))
