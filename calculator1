@@ -9,7 +9,7 @@ def addition(num1,num2):
     
 def divide(num1,num2):
     div = num1 + num2
-    return add
+    return div
     
 def subtract(num1, num2):
     sub = num1 - num2
